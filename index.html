@@ -61,7 +61,7 @@
         }
 
         .arriving-text {
-            font-size: 1.2rem;
+            font-size: 1.5vw;
             font-weight: 400;
             margin-bottom: 10px;
             opacity: 0.9;
@@ -70,7 +70,7 @@
         .company-name {
             font-family: 'Ubuntu Mono', monospace;
             font-weight: 700;
-            font-size: 3.5rem;
+            font-size: 4vw;
             line-height: 1;
             letter-spacing: -0.02em;
         }
@@ -78,7 +78,7 @@
         .contact-link {
             color: white;
             text-decoration: none;
-            font-size: 1.2rem;
+            font-size: 1.5vw;
             font-weight: 400;
             transition: opacity 0.3s ease;
         }
@@ -106,7 +106,7 @@
             position: absolute;
             color: white;
             text-decoration: none;
-            font-size: 1.8rem;
+            font-size: 1.5vw;
             font-weight: 400;
             transition: opacity 0.3s ease;
             line-height: 1.2;
@@ -166,7 +166,7 @@
         }
 
         .footer-text {
-            font-size: 1.2rem !important;
+            font-size: 1.5vw !important;
             font-weight: 400 !important;
             opacity: 0.9 !important;
             color: white !important;
@@ -175,8 +175,8 @@
             padding: 0 !important;
         }
 
-        /* Small screens - less than 768px */
-        @media (max-width: 768px) {
+        /* Small screens - less than 639px */
+        @media (max-width: 639px) {
             /* Dynamic viewport-based fonts for mobile */
             .arriving-text {
                 font-size: 3vw;
@@ -223,7 +223,7 @@
         }
 
         /* Portrait orientation - taller screens */
-        @media (max-width: 768px) and (orientation: portrait) {
+        @media (max-width: 639px) and (orientation: portrait) {
             .footer {
                 padding: 15px 20px !important;
             }
@@ -234,7 +234,7 @@
         }
 
         /* Landscape orientation - wider screens */
-        @media (max-width: 768px) and (orientation: landscape) {
+        @media (max-width: 639px) and (orientation: landscape) {
             .footer {
                 padding: 8px 20px !important;
             }
@@ -329,7 +329,7 @@
         .loading-text {
             color: white;
             font-family: 'Ubuntu', sans-serif;
-            font-size: 1.2rem;
+            font-size: 1.5vw;
             margin-top: 30px;
             opacity: 0;
             animation: textFade 1s ease-in-out 0.8s forwards;
