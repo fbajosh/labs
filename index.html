@@ -172,7 +172,7 @@
             color: white !important;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
             margin: 0 !important;
-            padding: 0 !important;
+            padding: 2vw !important;
         }
 
         /* Small screens - less than 639px */
@@ -276,6 +276,9 @@
         .sparkle:nth-child(8) { animation-delay: 0.8s; }
         .sparkle:nth-child(9) { animation-delay: 1.3s; }
         .sparkle:nth-child(10) { animation-delay: 1.8s; }
+        .sparkle:nth-child(8) { animation-delay: 3.8s; }
+        .sparkle:nth-child(9) { animation-delay: 3.2s; }
+        .sparkle:nth-child(10) { animation-delay: 3.7s; }
 
         @keyframes sparkle {
             0%, 100% { opacity: 0; transform: scale(0); }
@@ -329,6 +332,13 @@
         .loading-star:nth-child(4) { top: 100px; left: 100px; animation-delay: 0.4s; }
         .loading-star:nth-child(5) { top: 120px; left: 160px; animation-delay: 0.5s; }
         .loading-star:nth-child(6) { top: 160px; left: 80px; animation-delay: 0.6s; }
+        .loading-star:nth-child(4) { top: 100px; left: 100px; animation-delay: 0.8s; }
+        .loading-star:nth-child(5) { top: 120px; left: 160px; animation-delay: 1.1s; }
+        .loading-star:nth-child(6) { top: 160px; left: 80px; animation-delay: 1.5s; }
+        .loading-star:nth-child(6) { top: 160px; left: 80px; animation-delay: 2.0s; }
+        .loading-star:nth-child(5) { top: 120px; left: 160px; animation-delay: 2.6s; }
+        .loading-star:nth-child(6) { top: 160px; left: 80px; animation-delay: 3.3s; }
+        .loading-star:nth-child(6) { top: 160px; left: 80px; animation-delay: 3.8s; }
 
         .loading-text {
             color: white;
@@ -388,6 +398,13 @@
             <div class="loading-star"></div>
             <div class="loading-star"></div>
             <div class="loading-star"></div>
+            <div class="loading-star"></div>            
+            <div class="loading-star"></div>
+            <div class="loading-star"></div>
+            <div class="loading-star"></div>
+            <div class="loading-star"></div>
+            <div class="loading-star"></div>
+            <div class="loading-star"></div>
             <div class="loading-star"></div>
         </div>
         <div class="loading-text">Something is coming...</div>
@@ -408,6 +425,9 @@
         <div class="sparkle"></div>
         <div class="sparkle"></div>
         <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>       
         <div class="sparkle"></div>
         <div class="sparkle"></div>
         <div class="sparkle"></div>
@@ -447,7 +467,9 @@
 
     <!-- Footer - positioned outside container -->
     <footer class="footer">
-        <div class="footer-text">Do the hard thing. <wbr>Make it accessible, intentional, and novel.</div>
+    <div class="footer-text">
+        Do&nbsp;the&nbsp;hard&nbsp;thing.&nbsp;<wbr>Make&nbsp;it&nbsp;accessible,&nbsp;intentional,&nbsp;and&nbsp;novel.
+    </div>
     </footer>
 
     <script>
